@@ -1,0 +1,10 @@
+Components Required
+
+1.	Arduino Uno / Mega         	Main controller for the system
+2.	RFID Reader (MFRC522)	        To detect tagged items
+3.	RFID Tags (one per product)	Unique ID for each product
+4.	LCD Display (16x2  I2C)	        To show items and the total cost
+5.	Buzzer (optional)	        For product scan confirmation
+6.	Push button	                To finalise the billing
+7.	Power source	                9V battery or adapter
+8.	Breadboard & jumper wires	For circuit connections

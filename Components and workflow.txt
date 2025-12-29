@@ -1,0 +1,20 @@
+Components Required
+
+1.	Arduino Uno / Mega         	Main controller for the system
+2.	RFID Reader (MFRC522)	        To detect tagged items
+3.	RFID Tags (one per product)	Unique ID for each product
+4.	LCD Display (16x2  I2C)	        To show items and the total cost
+5.	Buzzer (optional)	        For product scan confirmation
+6.	Push button	                To finalise the billing
+7.	Power source	                9V battery or adapter
+8.	Breadboard & jumper wires	For circuit connections
+
+Work Flow
+
+1. Each product in the supermarket has an RFID tag with a unique ID.
+2. The RFID reader on the trolley scans the tag when an item is placed inside.
+3. The Arduino checks the tag ID in its database (a list stored in the code or SD card).
+4. The corresponding item name and price appear on the LCD screen.
+5. The total amount updates automatically as items are added or removed.
+6. When the customer is done shopping, they press a button to get the final bill.
+7. At the exit counter, a master RFID card can verify that the cart contents   match the paid bill.
